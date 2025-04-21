@@ -1,0 +1,115 @@
+@mixin fontRoboto300 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+@mixin fontRoboto400 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+@mixin fontRoboto500 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+@mixin fontRoboto700 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+@mixin fontNunitoSans300 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+
+@mixin fontNunitoSans400 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+@mixin fontNunitoSans500 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+}
+
+@mixin fontNunitoSans600 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+
+@mixin fontNunitoSans700 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+}
+
+$font-size-10: 10px;
+$font-size-11: 11px;
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-17: 17px;
+$font-size-18: 18px;
+$font-size-19: 19px;
+$font-size-20: 20px;
+$font-size-24: 24px;
+$font-size-25: 25px;
+$font-size-30: 30px;
+$font-size-32: 32px;
+$font-size-34: 34px;
+$font-size-36: 36px;
+$font-size-50: 50px;
+
+@mixin fontSize10 {
+  font-size: $font-size-10;
+  line-height: 1.2;
+}
+
+@mixin fontSize11 {
+  font-size: $font-size-11;
+  line-height: 1.2;
+}
+
+@mixin fontSize12 {
+  font-size: $font-size-12;
+}
+
+@mixin fontSize14 {
+  font-size: $font-size-14;
+}
+
+@mixin fontSize16 {
+  font-size: $font-size-16;
+}
+
+@mixin fontSize18 {
+  font-size: $font-size-18;
+}
+
+@mixin fontSize20 {
+  font-size: $font-size-20;
+}
+
+@mixin fontSize24 {
+  font-size: $font-size-24;
+}
+
+@mixin fontSize25 {
+  font-size: $font-size-25;
+}
+
+@mixin fontSize30 {
+  font-size: $font-size-30;
+}
+
+@mixin fontSize32 {
+  font-size: $font-size-32;
+}
+
+@mixin fontSize36 {
+  font-size: $font-size-36;
+}
+
+@mixin fontSize50 {
+  font-size: $font-size-50;
+}
