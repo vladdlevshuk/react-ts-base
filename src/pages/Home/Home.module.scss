@@ -1,0 +1,18 @@
+@use "design-system/font" as *;
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-white);
+}
+
+.title {
+  @include fontNunitoSans700;
+  font-size: $font-size-36;
+  color: var(--primary-black);
+  margin: 0 auto;
+}
